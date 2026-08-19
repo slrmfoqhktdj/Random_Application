@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/SettingDialogStyleSheet.uss?fileID=7433441132597879392&amp;guid=a887fa32e35a91d438d9eb4bf5ec3358&amp;type=3#SettingDialogStyleSheet" />
+    <Popup.SettingDialog />
+</ui:UXML>

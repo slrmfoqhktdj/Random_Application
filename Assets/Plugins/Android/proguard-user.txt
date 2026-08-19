@@ -1,0 +1,30 @@
+# Unity UI Toolkit 보호
+-keep class UnityEngine.UIElements.** { *; }
+-keep class Unity.UIElements.** { *; }
+-keepclassmembers class UnityEngine.UIElements.** { *; }
+
+# 리플렉션 사용 클래스 보호
+-keepattributes *Annotation*
+-keepattributes InnerClasses
+-keepattributes Signature
+
+# Unity 이벤트 시스템 보호
+-keep class UnityEngine.EventSystems.** { *; }
+-keep class UnityEngine.Events.** { *; }
+
+# 제네릭 타입 정보 유지
+-keepattributes Signature
+-keepattributes *Annotation*
+
+# 추가적인 Unity 관련 보호
+-dontwarn UnityEngine.**
+-dontwarn Unity.**
+
+-keep class com.google.android.gms.games.** { *; }
+-keep class com.google.android.gms.ads.** { *; }
+-keep class com.google.android.gms.tasks.** { *; }
+
+# -keep class com.google.android.play.core.appupdate.AppUpdateManagerFactory { *; }
+# -keep class com.google.android.play.core.install.InstallStateUpdatedListener { *; }
+
+-keep class com.google.android.play.core.** { *; }

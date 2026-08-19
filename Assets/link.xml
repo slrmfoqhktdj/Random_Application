@@ -1,0 +1,11 @@
+<linker>
+  <assembly fullname="I18N">
+    <type fullname="*" preserve="all"/>
+  </assembly>
+  <assembly fullname="I18N.CJK">
+    <type fullname="*" preserve="all"/>
+  </assembly>
+  <assembly fullname="I18N.West">
+    <type fullname="*" preserve="all"/>
+  </assembly>
+</linker>
